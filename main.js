@@ -1,4 +1,4 @@
-//ik dacht dat ik hem al een keer gepusht had, maar nee. Vandaar dit zinnetje zodat ik een pullrequest kan maken hahaha
+//ik dacht dat ik hem al een keer gepusht had, maar nee. Vandaar dit zinnetje zodat ik een pullrequest kan maken hahaha 2
 // VOORRAAD ARRAY MET TV'S
 const inventory = [
   {
