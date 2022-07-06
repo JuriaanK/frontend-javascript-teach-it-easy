@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Bahnschrift, serif;
+}
+
+.welkom{
+    display: flex;
+    flex-direction: row;
+    height: 500px
+}
+
+.main-foto{
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    width: 450px;
+    height: 275px;
+    margin: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-title{
+    display: flex;
+    color: white;
+    text-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.first-data{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+}
+
+.firstdata-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Opdracht 2b*/
+#soldTVs{
+    color: forestgreen;
+}
+
+/* Opdracht 2d*/
+#stockTVs{
+    color: darkblue;
+}
+
+#currentStock{
+    color: darkred;
+}
+
+#tv-info{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 25px;
+
+    color: white;
+    background-color: #F7941D;
+    width: 800px;
+}
+
+#info-list{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.info-p{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    padding: 25px;
+    background-color: #0C4DA2;
+}
+.outer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin: 75px;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding: 50px;
+    border-radius: 35px;
+    max-width: 1000px;
+}
+
+.one-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    font-family: inherit;
+    margin: 25px;
+    padding: 15px;
+    width: 200px;
+    color: white;
+    font-size: 15px;
+    background-color: #F7941D;
+    border-style: none;
+    border-radius: 10px;
+}
+.first-data-item{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+}
